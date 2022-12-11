@@ -1,0 +1,60 @@
+.ext{
+
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px grey;
+    width: 750px;
+    height: 360px;
+    text-align: center;
+
+    margin-top: 10%;
+    margin-right:auto;
+    margin-bottom: 10%;
+    margin-left:auto;
+}
+@font-face {
+    font-family: GaSaltblack;
+    src: url(../font/Gasalt-Black.ttf);
+}
+@font-face {
+    font-family: GaSaltReg;
+    src: url(../font/Gasalt-Regular.ttf);
+}
+@font-face {
+    font-family: GaSaltThin;
+    src: url(../font/Gasalt-Thin.ttf);
+}
+
+body{
+    background-color: lightgray;
+}
+.luffy{
+    margin-top: 20px;
+    border-radius: 50%;
+    width: 150px;
+}
+.logo{
+    border-radius: 50%;
+    width: 15px;
+}
+h1{
+    font-family: GaSaltReg;
+    text-transform: uppercase;
+    
+}
+.linkhover:hover{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    background-color: #3d5595;
+    padding: 5px;
+    border-radius: 25px;
+
+}
+.link:hover{    
+    color: white;
+}
+
+.link{
+    text-decoration: none;
+}
